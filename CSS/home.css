@@ -19,7 +19,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: tan;
+  
   padding: 10px;
 }
 .SYNOPSIS span{
@@ -63,7 +63,6 @@ body{
 
 
 .Icons{
-  background-color: blueviolet;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -82,7 +81,6 @@ body{
 
 .AllProduct{
   width: 100%;
-  background-color: rgba(95, 158, 160, 0.562);
   height: auto;
   display: flex;
   flex-direction: row;
