@@ -14,5 +14,5 @@ TO STOP THE SERVER , PRESS "ctrl+C" :
 ---
 WARNING: NE FERMEZ PAS LE TERMINAL! Sinon le serveur s’arrêtera automatiquement.
 ---
-Pour arrêter le serveur, revenez au terminal et tapez , puis appuyez sur "ctrl+C" 
+Pour arrêter le serveur, revenez au terminal, puis appuyez sur "ctrl+C" 
 ---
