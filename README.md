@@ -4,9 +4,11 @@ Pour l’exécuter sur votre PC, vous devez télécharger le référentiel sous 
 ----
 Décompressez-le, puis allez-y et cliquez dessus avec le bouton droit de la souris.
 ---
-Ensuite, cliquez sur Ouvrir dans le terminal Dans le terminal, écrivez cette ligne et appuyez sur :Enter
+Ensuite, cliquez sur Ouvrir dans le terminal Dans le terminal, écrivez cette ligne et appuyez sur "Enter" :
 ---
-go run ./main.go Ensuite, il devrait afficher que :
+go run .
+---
+Ensuite, il devrait afficher que :
 ---
 server is running... CLICK HERE to OPEN PAGE---> http://localhost:8080/home 
 ---
