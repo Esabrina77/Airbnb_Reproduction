@@ -11,9 +11,10 @@
 <body >
 
 	<!-- ELEMENTS EN-TETE -->
+	<div id="HEAD">
      <div class="SYNOPSIS"> 
 		 <div id="SynopsisImage">
-      	<a href="/home">    <img src="../CSS/icons/LOGO2AIRBNB.png" alt="logo-airbnb-1536"> </a>
+      	<a href="/home"> <img src="../CSS/icons/LOGO2AIRBNB.png" alt="logo-airbnb-1536"> </a>
      </div>
 
 	     <div class="Start">
@@ -49,6 +50,7 @@
 	<img src="../CSS/icons/tiny-house.png" alt="tiny-house">
 </div>
 
+</div>
 
 
 <!-- AFFICHAGES  DES DIFFERENTS LIEUX(HOTELS, MAISONS...) -->
@@ -56,7 +58,8 @@
 	 {{range .Products}}
      	 <div class="PRODUCT">
         
-			<div class="IMAGE">
+		  <div class="IMAGE">
+			<div id="Like"> <img src="/CSS/icons/coeur-noir-by-portgasdnat-chan-400.png" ></div>
 		<img src="{{.Images}}" alt="Image appartements">
 	     </div>
 		<p><b>{{.Localisation}} </b></p>

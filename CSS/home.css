@@ -13,13 +13,25 @@ body{
   display: flex;
    flex-direction: column;
 }
-.SYNOPSIS{
+
+#HEAD{
+  z-index: 2;
+  border-style: dotted;
+  position: fixed;
+  display: flex;
   width: 100%;
+  height: auto;
+  background-color: rgb(255,255,255);
+  flex-direction: column;
+}
+.SYNOPSIS{
+ width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+
 }
 .SYNOPSIS span{
   padding: 0 10px;
@@ -65,7 +77,6 @@ width: auto;
 }
 #LoginProfil img{
   border-radius: 50%;
-  margin: 10px;
   width: 40px;
   height: 40px;
 }
@@ -73,7 +84,7 @@ width: auto;
 
 
 #Bottom{
-  background-color: rgb(152, 142, 142);
+  background-color: rgb(97, 83, 83);
   position: fixed;
   display: flex;
   justify-content: center;
@@ -135,17 +146,26 @@ display: flex;
 flex-direction: column;
 margin-right: 20px;
 margin-bottom: 20px;
-
 }
-
 .PRODUCT img:last-child{
   margin-right: 0;
 }
 
-
+.IMAGE{
+  position: relative;
+}
 .IMAGE img{
   width: 350px;
   height: 255px;
   border-radius: 20px;
 }
 
+#Like{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#Like img{
+  width: 50px;
+  height: 50px;
+}
