@@ -38,16 +38,53 @@
  </div>
  
 <div class="Icons">
-	<img src="../CSS/icons/log-cabane.png" alt="log-cabane">
+	<div class="DecoIcon">
+		<img src="../CSS/icons/log-cabane.png" alt="log-cabane">
+		<p>Cabane</p>
+	</div>
+  <div class="DecoIcon">
 	<img src="../CSS/icons/ufo.png" alt="Alien">
+	<p>Wow</p>
+  </div>
+  <div class="DecoIcon">
 	<img src="../CSS/icons/river.png" alt="logo_Lac">
+	<p>Lacs</p>
+  </div>
+
+  <div class="DecoIcon">
 	<img src="../CSS/icons/logoGREENhouse.png" alt="logoGREENhouse">
+	<p>Maisons organiques</p>
+  </div>
+
+  <div class="DecoIcon">
 	<img src="../CSS/icons/logoPiscine.webp" alt="logoPiscine">
-	<img src="../CSS/icons/LogoSki.png" alt="LogoSki">
+	<p>Piscines</p>   
+</div>
+
+  <div class="DecoIcon">
+ <img src="../CSS/icons/LogoSki.png" alt="LogoSki">
+ <p>Au pieds des pistes</p>  
+ </div>
+  <div class="DecoIcon">
 	<img src="../CSS/icons/VuePlage.webp" alt="VuePlage">
+	<p>Avec vue</p>  
+   </div>
+
+<div class="DecoIcon">
 	<img src="../CSS/icons/castle.png" alt="castle">
-	<img src="../CSS/icons/floods.png" alt="floods">
-	<img src="../CSS/icons/tiny-house.png" alt="tiny-house">
+	<p>Chateaux</p>
+</div>
+
+  <div class="DecoIcon">
+<img src="../CSS/icons/floods.png" alt="floods">
+<p>Sur l'eau</p> 
+</div>
+
+<div class="DecoIcon">
+<img src="../CSS/icons/tiny-house.png" alt="tiny-house">
+<p>Tiny-house</p>
+</div>
+	
 </div>
 
 </div>
@@ -63,11 +100,15 @@
 		<img src="{{.Images}}" alt="Image appartements">
 	    </div>
 
-		     <div id="TEXT">
+		     <div id="TEXT"> 
 		  <p><b>{{.Localisation}} </b></p>
 		  <p>{{.Views}}</p>
 		  <p>{{.Date}}</p>
-		  <p><b>€{{.Price}}</b> /Night</p>
+		  <p><b>€{{.Price}}</b> /Night</p>  
+		       <div class="STARS"> 
+				<p>4.65</p> 
+				<img src="/CSS/icons/etoile-en-noir-de-forme-a-cinq-points.png" alt="Image appartements">
+			</div>
 	        </div>
 	</div>
 		{{end}}  
