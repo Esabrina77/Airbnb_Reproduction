@@ -9,20 +9,30 @@
 	<title>airbnb</title>
 </head>
 <body >
-   <div class="SYNOPSIS"> 
-<div id="SynopsisImage">
-	<img src="../CSS/icons/LOGO2AIRBNB.png" alt="logo-airbnb-1536">
-</div>
-	  <div class="Start">
+
+	<!-- ELEMENTS EN-TETE -->
+     <div class="SYNOPSIS"> 
+		 <div id="SynopsisImage">
+      	<a href="/home">    <img src="../CSS/icons/LOGO2AIRBNB.png" alt="logo-airbnb-1536"> </a>
+     </div>
+
+	     <div class="Start">
 	<span>N'importe où</span>
 	<span>Une semaine</span>
 	<span>Ajouter des voyageurs</span>
 	<img src="../CSS/icons/glass_lens_loupe_love_magnifying_search_zoom_icon_146722.png" alt="loupe">
-    </div>
+         </div>
 	
-	<div id="Profil">
-		<p>Mettre mon logement sur Airbnb</p>
-	</div>
+     	<div id="infosProfil">
+		<p>Mettre mon logement sur Airbnb
+		<img src="/CSS/icons/WORLD.png" alt="UNE MAP">
+	</p>
+
+	     <div id="LoginProfil">
+			<img src="/CSS/icons/PROFIL.png" alt="Profil_Icon">
+	     </div>
+
+	    </div>
 
  </div>
  
@@ -39,6 +49,9 @@
 	<img src="../CSS/icons/tiny-house.png" alt="tiny-house">
 </div>
 
+
+
+<!-- AFFICHAGES  DES DIFFERENTS LIEUX(HOTELS, MAISONS...) -->
 	<div class="AllProduct">
 	 {{range .Products}}
      	 <div class="PRODUCT">
@@ -46,16 +59,23 @@
 			<div class="IMAGE">
 		<img src="{{.Images}}" alt="Image appartements">
 	     </div>
-		<p>{{.Localisation}}</p>
+		<p><b>{{.Localisation}} </b></p>
 		<p>{{.Views}}</p>
 		<p>{{.Date}}</p>
-		<p>€{{.Price}} /Night</p>
+		<p><b>€{{.Price}}</b> /Night</p>
 	</div>
 		{{end}}  
-
-         
+ 
 	</div>
+
+
 </div>
+
+<div id="Bottom">
+	<p><b>Afficher la carte</b>  </p>
+	<img src="/CSS/icons/carte_Icon.png" alt="carte">
+	</div>
+
 </body>
 </html>
 {{end}}

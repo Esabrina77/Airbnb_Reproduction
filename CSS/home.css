@@ -9,7 +9,7 @@ JUSTE POUR POUVOIR LES DIFFERENCIER FACILEMENT */
 
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
+  position: relative;
   display: flex;
    flex-direction: column;
 }
@@ -19,7 +19,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
   padding: 10px;
 }
 .SYNOPSIS span{
@@ -30,8 +29,8 @@ body{
   border-right:none;
 }
 #SynopsisImage img{
-  width: 100px;
- height: 70px;
+  width: 120px;
+ height: 80px;
 }
 
 .Start{
@@ -39,7 +38,7 @@ body{
   justify-content: center;
   height: auto;
   padding: 5px;
-  border-style: dashed;
+  border-style: groove;
   border-radius: 50px;
 }
 .Start img{
@@ -48,11 +47,52 @@ body{
   height: 30px;
 }
 
-#Profil{
+#infosProfil{
+  border-style: dotted;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
   padding: 5px;
   border-style: groove;
 }
 
+
+#LoginProfil{
+  border-radius: 50%;
+width: auto;
+}
+#LoginProfil img{
+  border-radius: 50%;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+#Bottom{
+  background-color: rgb(152, 142, 142);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: groove;
+  border-radius: 50px;
+  width: 200px;
+  height: auto;
+ 
+  margin: 20px 0;
+  padding: 5px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#Bottom img{
+width: 30px;
+height: 30px;
+}
 
 
 
@@ -69,13 +109,14 @@ body{
   justify-content: space-between;
   flex-wrap: nowrap;
   width: 100%;
-  padding: 0 10px;
-  margin-bottom: 10px 0;
+  margin-bottom: 20px;
+background-color: rgba(0, 251, 255, 0.349);
+border-top-color: black;
 }
 .Icons img{
   margin: 0 10px;
- width: 50px;
- height: 50px;
+ width: 35px;
+ height: 35px;
 }
 .Icons img:last-child{
   margin-right: 0;
@@ -90,11 +131,11 @@ body{
 }
 .PRODUCT{
   width: auto;
-  border-style: dashed;
 display: flex;
 flex-direction: column;
-margin-right: 10px;
-margin-bottom: 10px;
+margin-right: 20px;
+margin-bottom: 20px;
+
 }
 
 .PRODUCT img:last-child{
@@ -103,8 +144,8 @@ margin-bottom: 10px;
 
 
 .IMAGE img{
-  width: 275px;
-  height: 275px;
+  width: 350px;
+  height: 255px;
   border-radius: 20px;
 }
 
