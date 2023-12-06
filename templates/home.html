@@ -56,16 +56,19 @@
 <!-- AFFICHAGES  DES DIFFERENTS LIEUX(HOTELS, MAISONS...) -->
 	<div class="AllProduct">
 	 {{range .Products}}
-     	 <div class="PRODUCT">
+     <div class="PRODUCT">
         
-		  <div class="IMAGE">
+		<div class="IMAGE">
 			<div id="Like"> <img src="/CSS/icons/coeur-noir-by-portgasdnat-chan-400.png" ></div>
 		<img src="{{.Images}}" alt="Image appartements">
-	     </div>
-		<p><b>{{.Localisation}} </b></p>
-		<p>{{.Views}}</p>
-		<p>{{.Date}}</p>
-		<p><b>€{{.Price}}</b> /Night</p>
+	    </div>
+
+		     <div id="TEXT">
+		  <p><b>{{.Localisation}} </b></p>
+		  <p>{{.Views}}</p>
+		  <p>{{.Date}}</p>
+		  <p><b>€{{.Price}}</b> /Night</p>
+	        </div>
 	</div>
 		{{end}}  
  
