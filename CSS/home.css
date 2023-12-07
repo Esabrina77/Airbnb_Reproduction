@@ -10,7 +10,6 @@ JUSTE POUR POUVOIR LES DIFFERENCIER FACILEMENT */
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
-  margin: 2px;
   display: flex;
    flex-direction: column;
 }
@@ -53,7 +52,9 @@ body{
   align-items: center;
   height: auto;
   padding:5px;
-  border-style: groove;
+ border: 3px;
+ border-color: blue;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
   border-radius: 50px;
 }
 .Start img{
@@ -99,10 +100,15 @@ width: auto;
  height: 30px;
 }
 .DecoIcon{
+  gap: 5px;
   font-size: 10px;
   display:flex;
   align-items: center;
   flex-direction: column;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -185,8 +191,9 @@ margin-bottom: 20px;
   width: 200px;
   height: auto;
  
+
   margin-bottom: 20px;
-  padding: 5px;
+  padding: 2px 5px;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);

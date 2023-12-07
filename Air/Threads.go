@@ -1,3 +1,4 @@
+
 package AirBnb_test
 
 type Product struct {
