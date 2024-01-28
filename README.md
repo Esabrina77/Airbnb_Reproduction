@@ -24,7 +24,6 @@
 <pre><code>Tic Tac... &#128513;</code></pre>
 <p>Ensuite, le serveur devrait démarrer et afficher le message : </p>
 <pre><code>Le serveur est en cours d'exécution... CLIQUEZ ICI pour OUVRIR LA PAGE---> <a href="http://localhost:8080/home">http://localhost:8080/home</a></code></pre>
-<img src="https://github.com/Mirkium/Immersion-2-PROJET-BLOG/assets/146923436/e92a4f29-f6dd-4170-8ae4-c2e1c7aa1530" alt="photo du terminale">
 <p>Pour arrêter le serveur, suivez ces étapes :</p>
 
 <ol>
