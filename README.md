@@ -4,7 +4,7 @@
 <h1>Option 1</h1>
 <p>Décompressez-le, puis accédez au dossier dans le terminal.</p>
 <p>Dans la liste des fichiers du dossier</p>
-<p>Double cliquer sur le fichier <u>Airbnb_Reproduction.exe</u></p>
+<p>Double cliquer sur le fichier <strong>"Airbnb_Reproduction.exe"</strong>  </p>
 <h1>&#128513; &#128513; &#128513; &#128513; &#128513; &#128513; &#128513; &#128513; &#128513; &#128513;</h1>
 
 <h1>Option 2</h1>
