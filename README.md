@@ -3,12 +3,10 @@
 <p>Pour utiliser ce code, suivez les étapes suivantes :</p>
 <ol>
 <li>Commencer par télécharger télécharger le dossier Zip</li>
-<img src="https://github.com/Esabrina77/Airbnb_Reproduction/assets/146923436/79b6ea31-57e6-4031-9013-e0bd16b57c81" alt="photo du git">
+<img src="https://github.com/Esabrina77/Airbnb_Reproduction/assets/146923436/231b5a4f-0a57-45af-94ed-8496accd0255" alt="photo du git">
   <li>Cliquez sur  <strong>"code" </strong>  puis sur    <strong>"Download The zip" </strong> .</li>
-
-<img src="https://github.com/Esabrina77/Airbnb_Reproduction/assets/146923436/d3fe1961-8fca-496e-86c7-738e75a63ce4" alt="photo du git">
+<img src="https://github.com/Esabrina77/Airbnb_Reproduction/assets/146923436/3b00cb29-32a4-43a3-b31c-be9f5ca34ab6" alt="photo du git">
 </ol>
-
 
 <h1>Option 1</h1>
 <p>Décompressez-le, puis accédez au dossier dans le terminal.</p>
