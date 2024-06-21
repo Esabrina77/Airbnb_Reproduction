@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const Port = "localhost:8080"
+const Port = "0.0.0.0:8080"
 
 func HomeProduct(w http.ResponseWriter, r *http.Request) {
 	// Initialisation des données
