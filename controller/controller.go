@@ -6,8 +6,6 @@ import (
 	"net/http"
 )
 
-const Port = "0.0.0.0:8080"
-
 func HomeProduct(w http.ResponseWriter, r *http.Request) {
 	// Initialisation des données
 	Screen := AirBnb_test.ProductData{
